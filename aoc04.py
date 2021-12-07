@@ -90,7 +90,7 @@ def calculate_loosing_score(numbers, puzzles):
 
 
 if __name__ == '__main__':
-    s = read_file('input\\input04.txt')
+    s = read_file('input/input04.txt')
     numbers, boards = split_input(s)
     calculate_winning_score(numbers, boards)
     calculate_loosing_score(numbers, boards)

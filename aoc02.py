@@ -33,7 +33,7 @@ def sum_command_sequence(mystring):
 
 
 if __name__ == '__main__':
-    s = read_file('input\\input02.txt')
+    s = read_file('input/input02.txt')
     x, z = sum_command_sequence(s)
     print(x, z)
     print(x*z)

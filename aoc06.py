@@ -43,7 +43,7 @@ def calculate_lanternfish_count(myhistory, mystring):
 
 
 if __name__ == '__main__':
-    myinput = read_file('input\\input06.txt')
+    myinput = read_file('input/input06.txt')
     myhistory = calculate_lanternfish_history(256)
     calculate_lanternfish_count(myhistory, myinput)
     

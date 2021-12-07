@@ -38,7 +38,7 @@ def get_number_of_increasing_measurements(mylist):
 
 if __name__ == '__main__':
     #mylist = make_list(myexample)
-    mylist = make_list(read_file('input\\input01.txt'))
+    mylist = make_list(read_file('input/input01.txt'))
     mylist = generate_sliding_window_list(mylist)
     print(len(mylist))
     print(get_number_of_increasing_measurements(mylist))

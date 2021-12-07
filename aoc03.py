@@ -89,6 +89,6 @@ def filter_by_bit(myold, d, b):
 
 
 if __name__ == '__main__':
-    s = read_file('input\\input03.txt')
+    s = read_file('input/input03.txt')
     calculate_power_consumption(s)
     calculate_life_support_rating(s)

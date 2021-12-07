@@ -58,7 +58,7 @@ def count_dangerous_spots():
 
 
 if __name__ == '__main__':
-    myinput = read_file('input\\input05.txt')
+    myinput = read_file('input/input05.txt')
     mylist = read_vent_line_coords(myinput)
     mymap = np.zeros((1000, 1000), dtype=int)
     fill_vent_map()
